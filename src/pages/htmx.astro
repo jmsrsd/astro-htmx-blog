@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="HTMX">
+  <button hx-post="/clicked">{`Hello, World!`}</button>
+</Layout>
+
+<style>
+  html {
+    background-color: initial;
+  }
+</style>
